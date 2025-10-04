@@ -1,0 +1,13 @@
+ext {
+    appVersionMajor = 0
+    appVersionMinor = 0
+    appVersionPatch = 1
+    appVersionCode = getVersionCode(appVersionMajor, appVersionMinor, appVersionPatch)
+    appVersionName = getVersionName(appVersionMajor, appVersionMinor, appVersionPatch)
+}
+private static Integer getVersionCode(Integer major, Integer minor, Integer patch) {
+    return major * 10000 + minor * 100 + patch
+}
+private static String getVersionName(Integer major, Integer minor, Integer patch) {
+    return "${major}.${minor}.${patch}"
+}
