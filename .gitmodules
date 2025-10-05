@@ -1,0 +1,4 @@
+[submodule "libnetworkutils"]
+	path = libnetworkutils
+	url = git@github.com-fkg002c:fkg002c/network_utils_library.git
+	branch = develop
