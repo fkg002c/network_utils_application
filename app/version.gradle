@@ -1,7 +1,7 @@
 ext {
     appVersionMajor = 0
     appVersionMinor = 0
-    appVersionPatch = 1
+    appVersionPatch = 2
     appVersionCode = getVersionCode(appVersionMajor, appVersionMinor, appVersionPatch)
     appVersionName = getVersionName(appVersionMajor, appVersionMinor, appVersionPatch)
 }
