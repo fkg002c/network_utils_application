@@ -62,4 +62,6 @@ dependencies {
 
 
     implementation project(':libnetworkutils:libnetworkutils')
+
+    implementation libs.androidx.work.runtime.ktx
 }
